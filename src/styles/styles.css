@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&display=swap');
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+body {
+  background-color: #764c15;
+  font-family: 'Henny Penny', cursive;
+}
+.title {
+  margin: 50px 50px;
+
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 700;
+  font-size: 44px;
+  transform: scale(1.1);
+  color: #00bfff;
+}
+
+.timer {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+}
+
+.field {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 150px;
+  margin: 15px;
+  color: #fff44f;
+}
